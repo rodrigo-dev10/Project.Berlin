@@ -28,7 +28,6 @@ function Registro() {
 
     if (ConfirmacaoNum1 == true) {
         document.getElementById('num1').value = (horas_minutos); // Limpa o campo   
-function
     } else if (ConfirmacaoNum1 == true) {
      document.getElementById('num2').value = (horas_minutos);
     } 

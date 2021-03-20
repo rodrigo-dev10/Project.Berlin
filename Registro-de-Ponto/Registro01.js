@@ -23,7 +23,7 @@ function Registro01() {
     console.log(`dia de hoje é ${DiaAtual}`);
 
 
-    Hoje.innerHTML += `Registrando ponto: ${DiaAtual}`
+    Hoje.innerHTML = `Registrando ponto: ${DiaAtual}`
     if (ConfirmacaoNum01 == true) {
         document.getElementById('num1').value = (horas_minutos);   
     }
