@@ -23,7 +23,7 @@ function Registro() {
 
 
 
-    Hoje.innerHTML += `Registrando ponto do dia: ${DiaAtual}`
+    Hoje.innerHTML = `Registrando ponto do dia: ${DiaAtual}`
    
 
     if (ConfirmacaoNum1 == true) {
