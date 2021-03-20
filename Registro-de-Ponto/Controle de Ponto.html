@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="Titulo">Controle de Ponto</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<header>
+    <picture><img src="logo.png" alt="logo"></picture>
+    <h1 id="titulo">Registro de ponto</h1>
+
+</header>
+
+<section>
+
+
+    <div id="Hoje">
+    </div>
+
+    <div>
+        <p>
+        <h3>Informe os Horarios</h3>
+        </p>
+        <form action="" id="form_ponto">
+            <p>Entrada: <input type="time" name="num1" id="num1"> <input type="button" value="..." onclick="Registro01()">
+            </p>
+            <p>Saida: <input type="time" name="num2" id="num2"> <input type="button" value="..." onclick="Registro02()">
+            </p>
+            <p>Entrada: <input type="time" name="num3" id="num3"> <input type="button" value="..." onclick="Registro03()">
+            </p>
+            <p>Seu horario de Saida é: <input type="time" name="num4" id="num4"></p>
+
+            <p>  <input type="button" value="Calcular Horario da Saida" onclick="controle()">
+                <input type="button" value="limpar" onclick="limpar()">
+                <input type="button" value="Mensagem do dia" onclick="sound()">
+                <input type="button" value="CalculoHoras" onclick="somaHora()">
+               
+
+
+            </p>
+          
+
+
+
+        </form>
+
+        <form action=""></form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Entrada</th>
+                    <th>Saida</th>
+                    <th>Entrada</th>
+                    <th>Saida</th>
+                 
+                </tr>
+            </thead>
+            <div id="CampoHorario">
+                <tbody id="TabelaHorario">
+                    <tr id="TbHorario">
+                        <td id="DtHoje"></td>
+                        <td id="TbNum1"></td>
+                        <td id="TbNum2"></td>
+                        <td id="TbNum3"></td>
+                        <td id="TbNum4"></td>
+                      
+                    </tr>
+            </div>
+            <div id="horario">
+
+
+
+
+
+            </div>
+
+    </div>
+    </select>
+    </div>
+
+
+    <div>
+
+
+
+    </div>
+</section>
+
+
+<script src="Controle.js"></script>
+<script src="Limpar.js"></script>
+<script src="carregar.js"></script>
+<script src="Registro.js"></script>
+<script src="Registro01.js"></script>
+<script src="Registro02.js"></script>
+<script src="Registro03.js"></script>
+<script src="remocao.js"></script>
+<script src="sound.js"></script>
+<script src="CalculoHoras.js"></script>
+
+
+</body>
+<footer>
+
+    <p>
+
+        Conect Tecnologia
+    </p>
+</footer>
+
+</html>
