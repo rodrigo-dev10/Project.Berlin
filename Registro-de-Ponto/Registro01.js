@@ -2,8 +2,6 @@ function Registro01() {
 
     const ConfirmacaoNum01 = confirm('Deseja Registrar o Ponto?');
 
-
-
     dataAtual = new Date();
     let dia = dataAtual.getDate();
     let mes = dataAtual.getMonth() + 1;
@@ -13,19 +11,17 @@ function Registro01() {
     let horas_minutos = (`${horas}:${minutos}`);
     let DiaAtual = (`${dia}/${mes}/${ano}`);
     console.log(`${dia}        ${mes}               ${ano}`);
+    let valor01 = document.querySelector('#num1').value;
 
-
-
-
+    console.log(`Valor 01 ${valor01}`);
     console.log(horas_minutos);
     console.log(ConfirmacaoNum01);
     console.log(num1.value);
     console.log(`dia de hoje é ${DiaAtual}`);
 
-
     Hoje.innerHTML = `Registrando ponto: ${DiaAtual}`
-    if (ConfirmacaoNum01 == true) {
-        document.getElementById('num1').value = (horas_minutos);   
+    if (ConfirmacaoNum01 == true ) {
+        document.getElementById('num1').value = (horas_minutos);
     }
 
 }

@@ -8,6 +8,10 @@ body {
 
 }
 
+#Logo{
+    height: 10%;
+    width: 10%;
+}
 #Hoje{
     font-size: 10px;
     text-align: right;

@@ -44,10 +44,10 @@ function controle() {
   if (num1.value.length == 0 || num2.value.length == 0 || num3.value.length == 0) {
     continue;
   } else {*/
-  DtHoje.innerHTML += (`${DiaAtual}`);
-  TbNum1.innerHTML += (`${num1.value}`);
-  TbNum2.innerHTML += (`${num2.value}`);
-  TbNum3.innerHTML += (`${num3.value}`);
+  DtHoje.innerHTML = (`${DiaAtual}`);
+  TbNum1.innerHTML = (`${num1.value}`);
+  TbNum2.innerHTML = (`${num2.value}`);
+  TbNum3.innerHTML = (`${num3.value}`);
 
   if (num1.value.length > 1 && num2.value.length > 1 && num3.value.length > 1) {
   }
