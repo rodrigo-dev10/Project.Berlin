@@ -1,0 +1,19 @@
+header{
+    display: inline-block;
+    text-align: center;
+    margin: auto;	
+    width: 1000px;
+}  
+
+#LodoDev10{
+    margin-left: 700px;
+    margin-top: -200px;
+    height: 13%;
+    width: 13%;
+}
+fieldset{
+    display: inline-block;
+    text-align: center;
+    margin: auto;	
+    width: 1000px;
+}  

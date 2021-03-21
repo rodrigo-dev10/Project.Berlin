@@ -1,0 +1,42 @@
+header{
+    display: inline-block;
+    text-align: center;
+    margin: auto;	
+    width: 1000px;
+}  
+fieldset{
+    border-radius: 30px;
+}
+
+#LogoDev10{
+    margin-left: 700px;
+    margin-top: -200px;
+    height: 15%;
+    width: 15%;
+}
+p b{
+    font-size: 23px;
+}
+
+#DadosPessoais  {
+   display: inline-block;
+   margin: auto;	
+   width: 1000px;			
+
+}  
+input{
+    text-align: left;
+    width: 1000px;	
+}
+
+#Endereço {
+    display: inline-block;
+    margin: auto;	
+    width: 1000px;			
+ 
+}
+
+#button{
+display: inline-block;
+                          
+}

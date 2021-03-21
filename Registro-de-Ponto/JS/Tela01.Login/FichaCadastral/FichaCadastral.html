@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Cadastral</title>
+    <link rel="stylesheet" href="DadosPessoais.css">
+</head>
+<body>
+    <header>
+        <fieldset disabled="disabled">
+         <h1>Ficha Cadastral 2021</h1>
+         <img src="C:\Repositorio\Registro-de-Ponto\Imagens\Logo.dev10.png" alt="Logo Scheffer" id="LogoDev10">
+        </fieldset>
+    </header>
+    <fieldset id="DadosPessoais">
+        <p><b>Meus dados Pessoais </b></p>
+       <p><label for="Nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome"></p>
+        <p> <label for="CPF">CPF:</label>
+        <input type="number" name="CPF" id="CPF" placeholder="xxx.xxx.xxx-xx"></p>
+        <p>  <label for="Dt_nasc">Data de Nascimento:</label>
+        <input type="date" name="Dt_nasc" id="Dt_nasc" placeholder="xx/xx/xxxx" formaction="##/##/####"></p>
+        <p> <label for="Telefone">Telefone:</label>
+        <input type="tel" name="Telefone" id="Telefone"  placeholder="(XX) XXXX-XXXX" formaction="(##)####-####"></p>
+        <p> <label for="Celular">Celular:</label>
+        <input type="number" name="Celular" id="Celular" placeholder="(XX) X.XXXX-XXXX"></p>
+        <p>  <label for="Email">E-mail:</label>
+        <input type="Email" name="Email" id="Email" placeholder="email@gmail.com"></p>
+        
+    </fieldset>
+
+    <fieldset id="Endereço">
+        <p><b>Meu Endereço</b></p>
+        <p><label for="Rua">Logradouro:</label>
+        <input type="text" name="Rua" id="Rua"></p>
+        <p><label for="Numero">Numero:</label>
+        <input type="text" name="Numero" id="Numero"></p>
+       <p> <label for="Bairro">Bairro:</label>
+        <input type="text" name="Bairro" id="Bairro"></p>
+        <p>Cidade: <select name="Cidade" id="Cidade">
+            <option value="Cidade" id="Cidade">Varzea Grande</option>
+            <option value="Cidade"id="Cidade" checked default>Cuiaba</option>
+            <option value="Cidade"id="Cidade">Sapezal</option>
+            <option value="Cidade"id="Cidade">Rondonopolis</option>
+        </select></p>
+        <p><label for="Observação">Observação</label>
+        <textarea name="Observação" id="observação" cols="140" rows="5"></textarea></p>
+        <input type="file" name="documentos" id="documentos">
+    </fieldset>
+
+ <div id="Button">
+    <p> <input type="button" value="Cadastrar"></p>
+
+     
+ </div>
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</body>
+</html>
