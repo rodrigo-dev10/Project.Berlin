@@ -1,0 +1,87 @@
+header{
+    display: inline-block;
+    text-align: center;
+    margin: auto;	
+    width: 1000px;
+}  
+
+body{
+
+background:#00ae9a;
+text-align: center;
+}
+
+#ImagemLogin {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px ;	
+   /* width: 1000px; */
+}
+
+#login{
+text-align: left;
+margin-right: 10px;
+
+}
+
+#ButtonEntrar{
+    font-size: 20px;
+    display: inline-block;
+    
+}
+fieldset {
+    display: inline-block;
+    border-radius:  30px;
+    width: auto;
+	background:#FFFFFF;
+}
+
+#logo-scheffer{
+    margin-left: 700px;
+    margin-top: -200px;
+}
+p b{
+    font-size: 23px;
+}
+
+#Receita  {
+   display: inline-block;
+   margin: auto;	
+   width: 1000px;			
+
+}  
+#Despesas input{
+    text-align: left;
+    width: 1000px;
+    border-radius:  10 10 10 10px;
+}
+#Receita input{
+    text-align: left;
+    width: 1000px;	
+    border-radius:  10 10 10 10px;
+}
+#Button input {
+    width: 200px;
+    border-radius: 10 10 10 10px;
+}
+
+#Despesas {
+    display: inline-block;
+    margin: auto;	
+    width: 1000px;			
+ 
+}
+
+#Button{
+display: inline-block;
+width: 50px;                          
+}
+
+#Rodape{
+
+    display: inline-block;
+    text-align: center;
+    margin: auto;	
+    width: 1000px;
+
+}

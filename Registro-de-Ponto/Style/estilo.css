@@ -1,0 +1,77 @@
+body {
+
+    background:#00ae9a;
+    font: normal 12pt Arial;
+    text-align: center;
+    width: auto;
+
+
+}
+
+#Logo{
+    height: 10%;
+    width: 10%;
+}
+#Hoje{
+    font-size: 10px;
+    text-align: right;
+}
+header{
+    padding: 5px;
+
+  
+}
+
+#titulo{
+   font-size: 25px;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+    font-size: 14px;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+
+section{
+
+background: white;
+border-radius: 10px;
+padding: 10px;
+width: 500px;
+margin: auto;
+box-shadow: 155px 155px 100 px rgb(0, 0, 0);
+
+
+}
+
+footer{
+
+color: rgb(14, 48, 14);
+text-align: center;
+font-style: italic;
+
+}
+#horario{
+    font-size: 15px;
+    background-color:#00ae9a;
+}
+
+#TbHorario{
+
+}
